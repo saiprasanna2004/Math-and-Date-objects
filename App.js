@@ -1,4 +1,3 @@
-function printPi(){
-    const piValue=Math.PI.toFixed(4);
-    document.getElementById('outputPi').textContent='Pi value: ${piValue}';
-}
+const numbers=[2,4,6,8,10];
+const minValue=Math.min(...numbers);
+document.getElementById('minValue').textContent=minValue;
